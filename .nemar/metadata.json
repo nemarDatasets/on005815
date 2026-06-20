@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "A Human EEG\nDataset for Multisensory Perception and Mental\nImagery",
-  "description": "The YOTO (You Only Think Once) dataset is a human electroencephalography resource comprising high-resolution EEG recordings from 20 participants performing multisensory perception and mental imagery tasks. Signals were acquired at 1000 Hz sampling rate during exposure to unimodal (visual and auditory) and multimodal stimuli, with participants providing subjective vividness ratings. Technical validation through event-related potentials and power spectral density analyses confirmed distinct neural responses across stimulus conditions, supporting applications in neural decoding, perception research, and cognitive modeling.",
-  "methods_description": "EEG signals were recorded at 1000 Hz sampling rate from 20 participants performing tasks with visual, auditory, and combined multisensory stimuli. Participants provided self-reported vividness ratings for subjective perceptual assessment. Data validation included event-related potential (ERP) and power spectral density (PSD) analyses to confirm distinct neural responses across stimulus conditions.",
+  "description": "The YOTO (You Only Think Once) dataset is a human electroencephalography resource comprising high-resolution EEG recordings from 20 participants performing multisensory perception and mental imagery tasks. Signals were acquired at 1000 Hz sampling rate during exposure to unimodal (visual and auditory) and multimodal stimuli, with participants providing subjective vividness ratings. Technical validation through event-related potentials and power spectral density analyses confirmed distinct neural responses across stimulus conditions, supporting applications in neural decoding, perception, and cognitive modeling.",
+  "methods_description": "EEG signals were recorded at 1000 Hz sampling rate from 20 participants performing tasks with visual, auditory, and combined multisensory stimuli. Participants provided self-reported vividness ratings for subjective perceptual assessment. Data validation included event-related potential (ERP) and power spectral density (PSD) analyses. The dataset comprises high-temporal-resolution neural activity recordings designed to investigate the integration of multiple sensory modalities and internal mental representations.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -35,10 +35,19 @@
       "term": "multimodal integration"
     },
     {
-      "term": "visual stimulus"
+      "term": "visual stimuli"
     },
     {
-      "term": "auditory stimulus"
+      "term": "auditory stimuli"
+    },
+    {
+      "term": "vividness ratings"
+    },
+    {
+      "term": "cognitive neuroscience"
+    },
+    {
+      "term": "BIDS"
     }
   ],
   "related_identifiers": [
