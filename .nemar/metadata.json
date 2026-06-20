@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005815",
-  "source": "openneuro",
-  "source_id": "ds005815",
+  "pipeline_stage": "enriched",
   "title": "A Human EEG\nDataset for Multisensory Perception and Mental\nImagery",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Yan-Han Chang": {},
     "Hsi-An Chen": {},
@@ -13,22 +13,89 @@
     "Kuan-Chih Huang": {},
     "Chun-Shu Wei": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005815.v2.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005815",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005815",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005815",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.10.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
   ],
-  "acknowledgements": "This work was supported by the National Science and Technology Council (NSTC) under Contracts 109-2222-E-009-006-MY3."
+  "formats": [
+    ".eeg",
+    ".json",
+    ".mat",
+    ".md",
+    ".set",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "The YOTO (You Only Think Once) dataset is a human EEG resource comprising high-resolution electroencephalography recordings from 20 participants performing multisensory perception and mental imagery tasks. Signals were acquired at 1000 Hz sampling rate during exposure to unimodal (visual and auditory) and multimodal stimuli, with participants providing subjective vividness ratings. Technical validation through event-related potentials and power spectral density analyses confirmed distinct neural responses across stimulus conditions, supporting applications in neural decoding, perception research, and cognitive modeling.",
+  "methods_description": "EEG signals were recorded at 1000 Hz sampling rate from 20 participants performing tasks with visual, auditory, and combined multisensory cues. Participants provided self-reported vividness ratings for subjective perceptual strength assessment. Data validation included event-related potential (ERP) and power spectral density (PSD) analyses.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "mental imagery"
+    },
+    {
+      "term": "multisensory perception"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "neural decoding"
+    },
+    {
+      "term": "multimodal integration"
+    },
+    {
+      "term": "vividness ratings"
+    },
+    {
+      "term": "subjective perception"
+    },
+    {
+      "term": "visual stimuli"
+    },
+    {
+      "term": "auditory stimuli"
+    },
+    {
+      "term": "YOTO"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Science and Technology Council (NSTC)",
+      "award_number": "109-2222-E-009-006-MY3"
+    }
+  ],
+  "source_hash": "3760eb8b7a4d0e8c504735425298d5fce7091757fb97f4bbefb785fce63765aa"
 }
