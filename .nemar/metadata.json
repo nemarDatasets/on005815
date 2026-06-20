@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "A Human EEG\nDataset for Multisensory Perception and Mental\nImagery",
+  "description": "The YOTO (You Only Think Once) dataset is a human electroencephalography resource comprising high-resolution EEG recordings from 20 participants performing multisensory perception and mental imagery tasks. Signals were acquired at 1000 Hz sampling rate during exposure to unimodal (visual and auditory) and multimodal stimuli, with participants providing subjective vividness ratings. Technical validation through event-related potentials and power spectral density analyses confirmed distinct neural responses across stimulus conditions, supporting applications in neural decoding, perception research, and cognitive modeling.",
+  "methods_description": "EEG signals were recorded at 1000 Hz sampling rate from 20 participants performing tasks with visual, auditory, and combined multisensory stimuli. Participants provided self-reported vividness ratings for subjective perceptual assessment. Data validation included event-related potential (ERP) and power spectral density (PSD) analyses to confirm distinct neural responses across stimulus conditions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,12 +15,33 @@
     "Kuan-Chih Huang": {},
     "Chun-Shu Wei": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005815.v2.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "multisensory perception"
+    },
+    {
+      "term": "mental imagery"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "neural decoding"
+    },
+    {
+      "term": "multimodal integration"
+    },
+    {
+      "term": "visual stimulus"
+    },
+    {
+      "term": "auditory stimulus"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005815",
       "identifier_type": "URL",
@@ -33,15 +56,26 @@
       "identifier": "10.18112/openneuro.ds005815",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005815.v2.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Science and Technology Council (NSTC)",
+      "award_number": "109-2222-E-009-006-MY3"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "10.6 GB (455 files)"
   ],
   "formats": [
     ".eeg",
@@ -52,50 +86,8 @@
     ".tsv",
     ".txt",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "The YOTO (You Only Think Once) dataset is a human EEG resource comprising high-resolution electroencephalography recordings from 20 participants performing multisensory perception and mental imagery tasks. Signals were acquired at 1000 Hz sampling rate during exposure to unimodal (visual and auditory) and multimodal stimuli, with participants providing subjective vividness ratings. Technical validation through event-related potentials and power spectral density analyses confirmed distinct neural responses across stimulus conditions, supporting applications in neural decoding, perception research, and cognitive modeling.",
-  "methods_description": "EEG signals were recorded at 1000 Hz sampling rate from 20 participants performing tasks with visual, auditory, and combined multisensory cues. Participants provided self-reported vividness ratings for subjective perceptual strength assessment. Data validation included event-related potential (ERP) and power spectral density (PSD) analyses.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "mental imagery"
-    },
-    {
-      "term": "multisensory perception"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "neural decoding"
-    },
-    {
-      "term": "multimodal integration"
-    },
-    {
-      "term": "vividness ratings"
-    },
-    {
-      "term": "subjective perception"
-    },
-    {
-      "term": "visual stimuli"
-    },
-    {
-      "term": "auditory stimuli"
-    },
-    {
-      "term": "YOTO"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "National Science and Technology Council (NSTC)",
-      "award_number": "109-2222-E-009-006-MY3"
-    }
-  ],
-  "source_hash": "3760eb8b7a4d0e8c504735425298d5fce7091757fb97f4bbefb785fce63765aa"
+  "source_hash": "a9f81067b97ccc8b2f67a7a0555d5a145378fd6034968eb1a95824a814e36cda"
 }
