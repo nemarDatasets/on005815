@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "A Human EEG\nDataset for Multisensory Perception and Mental\nImagery",
-  "description": "The YOTO (You Only Think Once) dataset is a human electroencephalography resource comprising high-resolution EEG recordings from 20 participants performing multisensory perception and mental imagery tasks. Signals were acquired at 1000 Hz sampling rate during exposure to unimodal (visual and auditory) and multimodal stimuli, with participants providing subjective vividness ratings. Technical validation through event-related potentials and power spectral density analyses confirmed distinct neural responses across stimulus conditions, supporting applications in neural decoding, perception, and cognitive modeling.",
-  "methods_description": "EEG signals were recorded at 1000 Hz sampling rate from 20 participants performing tasks with visual, auditory, and combined multisensory stimuli. Participants provided self-reported vividness ratings for subjective perceptual assessment. Data validation included event-related potential (ERP) and power spectral density (PSD) analyses. The dataset comprises high-temporal-resolution neural activity recordings designed to investigate the integration of multiple sensory modalities and internal mental representations.",
+  "description": "The YOTO (You Only Think Once) dataset is a human EEG resource for studying multisensory perception and mental imagery. Twenty participants completed tasks with unimodal and multimodal (visual, auditory, and combined) cues while EEG was recorded at 1000 Hz, and they gave self-reported vividness ratings of their imagery. Technical validation with event-related potentials and power spectral density analyses confirmed data reliability and distinct neural responses across stimuli, supporting research on neural decoding, perception, and cognitive modeling.",
+  "methods_description": "EEG was recorded at a 1000 Hz sampling rate from 20 participants performing tasks with visual, auditory, and combined visual-auditory cues. Participants gave self-reported vividness ratings. Data quality was validated with ERP and power spectral density analyses.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,44 +20,26 @@
       "term": "EEG"
     },
     {
-      "term": "multisensory perception"
-    },
-    {
       "term": "mental imagery"
     },
     {
-      "term": "event-related potentials"
+      "term": "multisensory perception"
     },
     {
       "term": "neural decoding"
     },
     {
-      "term": "multimodal integration"
+      "term": "event-related potentials"
     },
     {
-      "term": "visual stimuli"
-    },
-    {
-      "term": "auditory stimuli"
-    },
-    {
-      "term": "vividness ratings"
-    },
-    {
-      "term": "cognitive neuroscience"
-    },
-    {
-      "term": "BIDS"
+      "term": "Imagery, Psychotherapy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D019018"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005815",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005815",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -70,6 +52,11 @@
       "identifier": "10.18112/openneuro.ds005815.v2.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005815",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -84,7 +71,7 @@
     "eeg"
   ],
   "sizes": [
-    "10.6 GB (455 files)"
+    "9.91 GB (455 files)"
   ],
   "formats": [
     ".eeg",
